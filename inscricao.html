@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="inscricao.css"/>
+        <script type="text/javascript" src="inscricao.js"></script>
+        <meta charset="UTF-8">
+        <title>Porto Digital Minas</title>
+
+        <body>
+                <header>
+                    <h1 id="marca"><a href="#"><img
+                        src="https://fontmeme.com/permalink/210615/9bda2a964d1e30f6e4999b4566886758.png"
+                        alt="fontes-de-grafite" border="0"></a></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="index.html#parte1">Como Funciona</a></li>
+                            <li><a href="index.html#parte2">Inscrição</a></li>
+                            <li><a href="duvidas.html">Dúvidas</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                        </ul>
+                    </nav>
+                 </header>
+
+                 <div><h2 id="perfil" class="tituloRoxo">Inscrição</h2></div>
+                 <div>   
+                    
+
+                    <p class="styleLabel">Nome Completo:</p>
+                    <input class="styleCampo" id="nome">
+                    
+                    <p class="styleLabel">Email:</p>
+                    <input class="styleCampo" id="email">
+
+                    <p class="styleLabel">Idade:</p>
+                    <input class="styleCampo" id="idade">
+
+                    <p class="styleLabel">Qual a sua área de estudo?</p>
+
+                        <form class="styleCampo">
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Tecnologia
+                        <br>
+                        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Design
+                        </form>
+                    
+                    <p class="styleLabel">Qual o curso que você está fazendo?</p>
+                    <input class="styleCampo" id="curso">
+
+                    <p class="styleLabel">Qual sua preferência de horário para realizar as entrevistas no dia do Speed Hiring?</p>
+
+                            <form class="styleCampo">
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Tarde (14h as 17h)
+                            <br>
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Noite (18h as 20h)
+                            </form>
+
+                    <p class="styleLabel">Você atua/atuou na área?</p>
+
+                            <form class="styleCampo">
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Sim
+                            <br>
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Não
+                            </form>
+
+                    <p class="styleLabel">Qual turno disponível você possui para estagiar?</p>
+
+                            <form class="styleCampo">
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Manhã
+                            <br>
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Tarde
+                            <br>
+                            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Manhã e Tarde
+                            </form>
+
+                    <p id= "final"></p>
+                    <p id= "final2"></p>
+                 </div>
+                    
+                        
+                        <button id="botaoEnviar" onclick="retornaNome()">Enviar</button>
+                        </body>
+                        </html>
